@@ -47,12 +47,19 @@ def draw_triangle(height):
     if height and isinstance(height, int):
         for i in range(height):
             for k in range(i+1):
-                print(k+1, end='')
+                print(k+1, end=' ')
             print('')
 
 
 def draw_triangle_multiplication(height):
-    pass
+    """1 
+2 4 
+3 6 9 
+4 8 12 16 
+5 10 15 20 25 
+6 12 18 24 30 36 
+"""
+
 
 
 def draw_pyramid(height):
